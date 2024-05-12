@@ -1,17 +1,15 @@
-# Week  3: University Management System Database Design
+# Week  4
 
-This week, you will gain practical experience in designing and implementing a relational database schema. You will design a schema for a University Management System, focusing on entities like Students, Courses, Instructors, and Enrollments.  You will then translate this schema into SQL statements to create the database tables and populate them with sample data.
+This week, you'll delve into entity-relationship modelling (ERM) by designing an ERD for a library management system. You'll focus on representing the relationships between books, authors, library members, and borrowings.
 
 ## Learning Objectives:
 
-By the end of this week, you will be able to:
+By the end of this week, you'll be able to:
 
-Identify entities and their attributes relevant to a specific system.
-Design a relational database schema with appropriate relationships between entities.
-Implement the designed schema using SQL statements, including:
-Creating tables with data types and constraints.
-Defining foreign keys to enforce relationships.
-Populate the database tables with sample data.
+Identify entities and their attributes relevant to a library system.
+Understand the concept of relationships (cardinalities) between entities.
+Design an ERD using appropriate symbols to represent entities, attributes, and relationships.
+Address many-to-many relationships using associative entities.
 
 ___________________________________________________________________________________________________________
 ## Instructions (Read and follow instructions)
@@ -22,7 +20,18 @@ ________________________________________________________________________________
 4. Share this GitHub repo as your LMS submission link 
 ___________________________________________________________________________________________________________
 
-Design a relational database schema for a university management system. The schema should include the following entities: Student (student ID, name, email, date of birth) Course (course ID, title, description, credits) Instructor (instructor ID, name, email, expertise) Enrollment (enrollment ID, student ID, course ID, enrollment date)
+Suppose you're tasked with designing an Entity Relationship Diagram (ERD) for a basic library system. The system needs to track information about books, authors, library members, and borrowing history. Design an ERD to represent these relationships.
+
+## Requirements:
+Entities:
+Book: Each book has a unique ID, title, and publication year. Author: Each author has a unique ID and name. Library Member: Each member has a unique ID and name. Borrowing: Each borrowing has a unique ID, a due date, and a return date.
+
+## Relationships:
+Each book can have one or more authors, and each author can write one or more books. Each borrowing is associated with one book and one library member. A book can be borrowed by multiple members, and a member can borrow multiple books.
+
+## Tasks:
+Design an ERD:
+Create an ERD illustrating the relationships between books, authors, library members, and borrowings. Use simple symbols to represent entities, attributes, and relationships.
 
 **Implement the Schema:**
 Using SQL, implement the database schema you designed. Ensure appropriate data types, constraints, and relationships (foreign keys) are defined for each table.
