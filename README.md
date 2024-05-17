@@ -1,6 +1,6 @@
 # Week 4: Expense Tracker Management with Data Manipulation Language (DML)
 
-Great work last week! You've become a dab hand at retrieving and summarizing your expense data. This week, we'll dive into Data Manipulation Language (DML), empowering you to actively manage your Expense Tracker.
+Great work last week! With just a little more practice you will be an expert at retrieving and summarizing your expense data. This week, we'll dive into Data Manipulation Language (DML), empowering you to actively manage your Expense Tracker project.
 
 ## Learning Objectives:
 
