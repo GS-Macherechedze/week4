@@ -1,40 +1,32 @@
-# Week  4
+# Week 4: Expense Tracker Management with Data Manipulation Language (DML)
 
-This week, you'll delve into entity-relationship modelling (ERM) by designing an ERD for a library management system. You'll focus on representing the relationships between books, authors, library members, and borrowings.
+Great work last week! You've become a dab hand at retrieving and summarizing your expense data. This week, we'll dive into Data Manipulation Language (DML), empowering you to actively manage your Expense Tracker.
 
 ## Learning Objectives:
 
-By the end of this week, you'll be able to:
+Master INSERT, UPDATE, and DELETE statements for data manipulation in your Expense Tracker.
+Confidently add new expenses, update existing ones, and remove unwanted entries.
+Understand and handle NULL values effectively in your database.
 
-Identify entities and their attributes relevant to a library system.
-Understand the concept of relationships (cardinalities) between entities.
-Design an ERD using appropriate symbols to represent entities, attributes, and relationships.
-Address many-to-many relationships using associative entities.
+**What you'll need:**
 
-___________________________________________________________________________________________________________
-## Instructions (Read and follow instructions)
+Access to a computer with internet access
+A text editor (e.g., Notepad, Google Docs)
+Access to your Expense Tracker database (instructor-provided data)
+Important Note: It's recommended to practice on a copy of your Expense Tracker database to avoid accidental modifications to your main data set.
 
-1. Answer all questions (text, diagrams etc.) in one Microsoft Word document.
-2. Ensure your SQL statements are well-formatted and include comments to explain their purpose.
-3. Upload your document on this repo.
-4. Share this GitHub repo as your LMS submission link 
-___________________________________________________________________________________________________________
+ ## Questions (2 hours):
 
-Suppose you're tasked with designing an Entity Relationship Diagram (ERD) for a basic library system. The system needs to track information about books, authors, library members, and borrowing history. Design an ERD to represent these relationships.
+**1.1.** Adding a New Expense: 
+Write an INSERT statement to add a new expense record to your Expense Tracker. Include details like amount, date, and category (e.g., groceries purchase on a specific date with a certain amount).
 
-## Requirements:
-Entities:
-Book: Each book has a unique ID, title, and publication year. Author: Each author has a unique ID and name. Library Member: Each member has a unique ID and name. Borrowing: Each borrowing has a unique ID, a due date, and a return date.
+**1.2.** Updating an Expense:  
+Modify an existing expense record. You can change the amount, date, or category for a specific expense ID.
 
-## Relationships:
-Each book can have one or more authors, and each author can write one or more books. Each borrowing is associated with one book and one library member. A book can be borrowed by multiple members, and a member can borrow multiple books.
+**1.3.** Simulating Data Deletion:  
+Create a copy of your "Expenses" table. Practice deleting a record using DELETE on this copy (remember not to delete from your main data set).
 
-## Tasks:
-Design an ERD:
-Create an ERD illustrating the relationships between books, authors, library members, and borrowings. Use simple symbols to represent entities, attributes, and relationships.
+## Bonus Challenge 
 
-**Implement the Schema:**
-Using SQL, implement the database schema you designed. Ensure appropriate data types, constraints, and relationships (foreign keys) are defined for each table.
-
-**Populate the Database:**
-Populate each table with sample data. Ensure that there are enough records to demonstrate the relationships between entities.
+Handling NULL Values:  
+Check if there are any NULL values in your "Expenses" table. If so, explore how you might handle them using conditional updates or setting default values (consider the feasibility based on your sample data).
