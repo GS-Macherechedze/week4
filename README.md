@@ -17,16 +17,20 @@ Important Note: It's recommended to practice on a copy of your Expense Tracker d
 
  ## Questions (2 hours):
 
-**1.1.** Adding a New Expense: 
-Write an INSERT statement to add a new expense record to your Expense Tracker. Include details like amount, date, and category (e.g., groceries purchase on a specific date with a certain amount).
+**1.1.** Adding Multiple Expenses: 
+Write an INSERT statement to add several new expense records to your Expense Tracker at once. Include details like amount, date, and category (e.g., record grocery purchases, office supplies, and travel costs for a specific date with their respective amounts). Consider using multiple VALUES clauses within a single INSERT statement for efficiency.
 
-**1.2.** Updating an Expense:  
-Modify an existing expense record. You can change the amount, date, or category for a specific expense ID.
+**1.2.** Updating Expense Information:
+Modify an existing expense record in your Expense Tracker. You can change details like the amount, date, or category for a specific expense ID. Demonstrate the use of a WHERE clause to target the exact record you want to update.
 
-**1.3.** Simulating Data Deletion:  
-Create a copy of your "Expenses" table. Practice deleting a record using DELETE on this copy (remember not to delete from your main data set).
+**1.3.** Selective Data Deletion
+Create a copy of your "Expenses" table. Practice deleting records using DELETE on this copy, focusing on entries with specific criteria. Here are a couple of options:
 
-## Bonus Challenge 
+* Delete expense entries where the amount is zero.
+* Delete expense entries from a specific date range (e.g., delete all expenses before July 1st, 2023).
+**Remember:**  Perform these deletions on your copy to avoid modifying your main data set.
+
+## Bonus Challenge: Handling NULL Values
 
 Handling NULL Values:  
-Check if there are any NULL values in your "Expenses" table. If so, explore how you might handle them using conditional updates or setting default values (consider the feasibility based on your sample data).
+Check if there are any NULL values in your "Expenses" table. If so, explore how you might handle them using conditional updates or setting default values. Consider the feasibility of these approaches based on your sample data. 
